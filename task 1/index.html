@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+
+    <link href="cal.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <table width="22%" align="center" id="main">
+        <tr id="bor">
+            <td colspan="4" id="ans">
+            </td>
+        </tr>
+
+        <tr id="bor">
+            <td id="sp2">
+                <input onclick="addNo(this.value)" type="button" value="7" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="8" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="9" />
+            </td>
+            <td id="sp1">
+                <input onclick="addNo(this.value)" type="button" value="+" />
+            </td>
+        </tr>
+        <tr id="bor">
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="4" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="5" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="6" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="-" />
+            </td>
+        </tr>
+        <tr id="bor">
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="1" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="2" />
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="3" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="*" />
+            </td>
+        </tr>
+        <tr id="bor">
+            <td id="sp">
+                <input onclick="clearAns()" type="button" value="c" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="0" />
+            </td>
+            <td id="sp">
+                <input onclick="generateAns()" type="button" value="=" />
+            </td>
+            <td id="sp">
+                <input onclick="addNo(this.value)" type="button" value="/" />
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="cal.js"></script>
+</body>
+
+</html>
